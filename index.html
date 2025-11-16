@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Dr. Syamraj KP | Computational Finance Expert | Financial Risk Management Specialist</title>
+    
+    <meta name="description" content="Dr. Syamraj KP - Assistant Professor specializing in Computational Finance, ESG Research, and Financial Risk Management at LEAD College, Kerala. Published researcher in Global Finance Journal.">
+    <meta name="keywords" content="Syamraj KP, Computational Finance, Financial Risk Management, ESG Research, Portfolio Management, Python Finance, LEAD College, Kerala Professor">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Dr. Syamraj KP | Computational Finance Expert">
+    <meta property="og:description" content="Assistant Professor & Researcher in Computational Finance and Sustainable Finance">
+    <meta property="og:type" content="profile">
+    <meta property="og:url" content="https://syamrajkp.com">
+    <meta property="og:image" content="https://picsum.photos/1200/630">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Dr. Syamraj KP | Computational Finance Expert">
+    <meta name="twitter:description" content="Assistant Professor & Researcher in Computational Finance">
+    <meta name="twitter:image" content="https://picsum.photos/1200/630">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600&family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- Libraries -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        background: linear-gradient(135deg, #0A2463 0%, #1E3A8A 50%, #3B82F6 100%);
+        background-attachment: fixed;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-family: 'Space Grotesk', sans-serif;
+      }
+      .font-academic {
+        font-family: 'Crimson Pro', serif;
+      }
+      .gradient-text {
+        background: linear-gradient(to right, #3B82F6, #10B981);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+      }
+      .glass-card {
+        background: rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      }
+      .glass-card-dark {
+        background: rgba(10, 36, 99, 0.2);
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+        border-radius: 20px;
+        border: 1px solid rgba(59, 130, 246, 0.3);
+        box-shadow: 0 8px 32px 0 rgba(10, 36, 99, 0.5);
+      }
+      .glass-button {
+        background: rgba(59, 130, 246, 0.3);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        transition: all 0.3s ease;
+      }
+      .glass-button:hover {
+        background: rgba(59, 130, 246, 0.5);
+        transform: translateY(-2px);
+        box-shadow: 0 12px 40px 0 rgba(59, 130, 246, 0.4);
+      }
+       .glass-input {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 12px;
+        transition: all 0.3s ease;
+      }
+      .glass-input:focus {
+        background: rgba(255, 255, 255, 0.2);
+        border-color: #3B82F6;
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+      }
+      .animated-orb-1 {
+        content: '';
+        position: fixed;
+        width: 500px;
+        height: 500px;
+        background: radial-gradient(circle, rgba(59, 130, 246, 0.3) 0%, transparent 70%);
+        top: -250px;
+        right: -250px;
+        animation: float 20s ease-in-out infinite;
+        z-index: -1;
+      }
+      .animated-orb-2 {
+        content: '';
+        position: fixed;
+        width: 400px;
+        height: 400px;
+        background: radial-gradient(circle, rgba(16, 185, 129, 0.2) 0%, transparent 70%);
+        bottom: -200px;
+        left: -200px;
+        animation: float 15s ease-in-out infinite reverse;
+        z-index: -1;
+      }
+      @keyframes float {
+        0% { transform: translate(0, 0); }
+        50% { transform: translate(30px, -40px); }
+        100% { transform: translate(0, 0); }
+      }
+    </style>
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Dr. Syamraj KP",
+        "jobTitle": "Assistant Professor",
+        "affiliation": {
+            "@type": "Organization",
+            "name": "LEAD College of Management"
+        },
+        "knowsAbout": ["Computational Finance", "Risk Management", "ESG Research"],
+        "alumniOf": "University of Kerala",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Palakkad",
+            "addressRegion": "Kerala",
+            "addressCountry": "India"
+        }
+    }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "chart.js": "https://aistudiocdn.com/chart.js@^4.5.1"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
